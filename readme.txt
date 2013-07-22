@@ -18,7 +18,7 @@ For portfolio items you have the following settings: title, content, client webs
 Two templates are available:
 
 * Portfolio Filterable - this template will display all your portfolio items. It will add a filter on top of it that will let your users choose items by portfolio category. It will change category listing with a cool animation.
-* Portfolio Paginated - this will display all portfolio items and it will add pagination bellow. The number of items per page can be set up in Settings -> Reading -> Blog pages show at most. Note that this setting is also valid for all blog archives and the Blog 1 column page template.
+* Portfolio Paginated - this will display all portfolio items and it will add pagination bellow. The number of items per page can be set up in Settings -> Reading -> Blog pages show at most. 
 
 Both templates can be called in a Page by using their shortcodes. 
 
