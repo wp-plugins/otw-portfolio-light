@@ -17,15 +17,15 @@ For portfolio items you have the following settings: title, content, client webs
 
 Two templates are available:
 
-* Portfolio Filterable – this template will display all your portfolio items. It will add a filter on top of it that will let your users choose items by portfolio category. It will change category listing with a cool animation.
-* Portfolio Paginated – this will display all portfolio items and it will add pagination bellow. The number of items per page can be set up in Settings -> Reading -> Blog pages show at most. Note that this setting is also valid for all blog archives and the Blog 1 column page template.
+* Portfolio Filterable - this template will display all your portfolio items. It will add a filter on top of it that will let your users choose items by portfolio category. It will change category listing with a cool animation.
+* Portfolio Paginated - this will display all portfolio items and it will add pagination bellow. The number of items per page can be set up in Settings -> Reading -> Blog pages show at most. Note that this setting is also valid for all blog archives and the Blog 1 column page template.
 
 Both templates can be called in a Page by using their shortcodes. 
 
 Shortcodes:
 
-* [otw_portfolio] – This will generate Portfolio Paginated template listing portfolio items
-* [otw_portfolio otw_filterable] – This will generate Portfolio Filterable template listing portfolio items with a nicely animated filter on top
+* [otw_portfolio] - This will generate Portfolio Paginated template listing portfolio items
+* [otw_portfolio otw_filterable] - This will generate Portfolio Filterable template listing portfolio items with a nicely animated filter on top
 
 Copy and past the shortcodes in a new page to get a page displaying your portfolio items.
 
@@ -33,7 +33,7 @@ The plugin will automatically create category archive templates for each of your
 
 In the portfolio settings page you can change the default image sizes for single portfolio items, portfolio templates and archives. You can also set the width for your content. 
 
-If you need to modify the template files you can do that and still be able to update the plugin without doing the modifications again. To do that copy the template you’d like to modify form the /templates/ folder of the plugn and past it in your theme’s folder. Do the modifications there. 
+If you need to modify the template files you can do that and still be able to update the plugin without doing the modifications again. To do that copy the template you'd like to modify form the /templates/ folder of the plugn and past it in your theme's folder. Do the modifications there. 
 
 Full width page template is available in case your theme does not have one.
 
