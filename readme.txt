@@ -15,6 +15,7 @@ OTW Portfolio Light plugin adds responsive portfolio functionality to your WordP
 
 Check out the [Sidebar and Widget Manager](http://otwthemes.com/product/sidebar-widget-manager-for-wordpress/?utm_source=wp.org&utm_medium=page&utm_content=upgrade&utm_campaign=otw-p) |
 [Demo site](http://otwthemes.com/demos/1ts/?item=Sidebar%20Widget%20Manager&utm_source=wp.org&utm_medium=page&utm_content=upgrade&utm_campaign=otw-p) 
+
 [Widgetize pages, create responsive layouts in minutes, drag & drop interface, feature rich](http://otwthemes.com/widgetizing-pages-in-wordpress-can-be-even-easier-and-faster?utm_source=wp.org&utm_medium=page&utm_content=upgrade&utm_campaign=otw-p)
 
 For portfolio items you have the following settings: title, content, client website, short testimonial, featured image for archives and portfolio images for the single portfolio item page displayed in a slider. 
