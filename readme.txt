@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: portfolio, images gallery, custom fields, filterable portfolio, filter animation, categories, custom, pagination, customize templates, shortcodes
 Requires at least: 3.5
 Tested up to: 3.5.2
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -69,6 +69,10 @@ Please refer to [online documentation page](http://otwthemes.com/online-document
 8. Back-end Settings
 
 == Changelog ==
+
+= 1.3 =
+
+* When no categories, do not display any filters
 
 = 1.2 =
 

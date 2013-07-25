@@ -15,15 +15,19 @@ otw_pfl_scripts_styles(); /* include the necessary srctips and styles */
         <div class="otw-row otw-sc-portfolio" <?php echo $style_width; ?>>
               <div class="otw-twentyfour otw-columns">
 
-                <ul class="otw-portfolio-filter">
-                    <?php
-                      foreach ( get_object_taxonomies( 'otw-portfolio' ) as $tax_name ) {
-                        $output = explode( '</li>', wp_list_categories('title_li=&taxonomy='.$tax_name.'&echo=0') );
-                        array_pop($output);
-                        echo implode(' <span class="separator">/</span> ',$output);
-                      }
-                    ?>
-                </ul>
+              <?php $taxo = get_object_taxonomies( 'otw-portfolio' );
+                foreach ( $taxo as $tax_name ) {
+                    $categories = get_categories('taxonomy='.$tax_name);
+                    $i = 0; $len = count( $categories );
+                    foreach ($categories as $category) {
+                        if ($i == 0) { ?><ul class="otw-portfolio-filter"><?php }
+                        if ($i > 0) { $sep = '<span class="separator">/</span>'; }
+                	        echo '<li class="'.$category->category_nicename.'"><a href="'.get_term_link($category->slug, 'otw-portfolio-category').'">'.$sep.$category->cat_name.'</a></li>';
+                        if ($i == $len - 1) { echo '</ul>'; }
+                        $i++;
+                    }
+                }
+              ?>
 
                   <ul class="otw-portfolio block-grid three-up mobile">
                   <?php if (is_page()) { $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; query_posts('post_type=otw-portfolio&paged='.$paged); } ?>

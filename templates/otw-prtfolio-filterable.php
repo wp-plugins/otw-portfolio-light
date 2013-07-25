@@ -16,17 +16,19 @@ otw_pfl_filter_scripts_styles();
         <div class="otw-row otw-sc-portfolio" <?php echo $style_width; ?>>
               <div class="otw-twentyfour otw-columns">
 
-                <ul class="otw-portfolio-filter">
-                    <li class="all"><a href="#"><?php _e( 'All', 'otw_pfl' ); ?></a></li>
-                    <?php
-                      foreach ( get_object_taxonomies( 'otw-portfolio' ) as $tax_name ) {
+                  <?php $taxo = get_object_taxonomies( 'otw-portfolio' );
+                    foreach ( $taxo as $tax_name ) {
                         $categories = get_categories('taxonomy='.$tax_name);
+                        $i = 0; $len = count( $categories );
                         foreach ($categories as $category) {
-                    	    echo '<li class="'.$category->category_nicename.'"><span class="separator">/</span><a href="#">'.$category->cat_name.'</a></li>';
+                            if ($i == 0) { ?><ul class="otw-portfolio-filter"> <li class="all"><a href="#"><?php _e( 'All', 'otw_pfl' ); ?></a></li> <?php }
+                    	        echo '<li class="'.$category->category_nicename.'"><span class="separator">/</span><a href="#">'.$category->cat_name.'</a></li>';
+                            if ($i == $len - 1) { echo '</ul>'; }
+                            $i++;
                         }
-                      }
-                    ?>
-                </ul>
+                    }
+                  ?>
+				  
                   <ul class="otw-portfolio block-grid three-up mobile">
                   <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;  ?>
                   <?php query_posts('post_type=otw-portfolio&posts_per_page=-1&paged='.$paged); ?>
