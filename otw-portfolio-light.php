@@ -154,7 +154,7 @@ function otw_pfl_admin_notice(){
       ?>
       <div class="updated">
           <p>See <a href="http://otwthemes.com/online-documentation-otw-portfolio-light-plugin/?utm_source=wp.org&amp;utm_medium=admin&amp;utm_content=docs&amp;utm_campaign=otw-p">Online documentation</a> for more info on this plugin.</p>
-          <p>Check out the <a href="http://otwthemes.com/product/sidebar-widget-manager-for-wordpress/?utm_source=wp.org&amp;utm_medium=admin&amp;utm_content=upgrade&amp;utm_campaign=otw-p">Sidebar and Widget Manager</a>.</p>
+          <p>Check out the <a href="http://otwthemes.com/product/sidebar-widget-manager-for-wordpress/?utm_source=wp.org&amp;utm_medium=admin&amp;utm_content=otherp&amp;utm_campaign=otw-p">Sidebar and Widget Manager</a>.</p>
       </div>
      <?php }
  }
