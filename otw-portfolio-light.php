@@ -4,7 +4,7 @@
 Plugin Name: OTW Portfolio Light
 Plugin URI: http://OTWthemes.com?utm_source=wp.org&utm_medium=admin&utm_content=site&utm_campaign=otw-p
 Description: Create a great looking responsive portfolio on your WordPress site. Categorize portfolio.
-Version: 1.3
+Version: 1.4
 Author: OTWthemes.com
 Author URI: http://OTWthemes.com?utm_source=wp.org&utm_medium=admin&utm_content=site&utm_campaign=otw-p
 License: GPLv2 or later
