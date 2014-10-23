@@ -3,7 +3,7 @@ Contributors: OTWthemes
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CQH6CMTR42KS2
 Tags: portfolio, images gallery, custom fields, filterable portfolio, filter animation, categories, custom, pagination, customize templates, shortcodes
 Requires at least: 3.5
-Tested up to: 3.9
+Tested up to: 4.0
 Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Create a great looking responsive portfolio on your WordPress site. Categorize portfolio. Filterable or paginated.
 
 == Description ==
-OTW Portfolio Light plugin adds responsive portfolio functionality to your WordPress site. Create portfolio items. Categorize them. The plugin comes with a very nice 3 column templates to show the portfolio in a page or portfolio category. Nice filter option or pagination is available too.
+OTW Portfolio Light plugin adds responsive portfolio functionality to your WordPress site. Create portfolio items. Categorize them. The plugin comes with a very nice 3 columns templates to show the portfolio in a page or portfolio category. Nice filter option or pagination is available too.
 
 Check out the [Sidebar and Widget Manager](http://otwthemes.com/product/sidebar-widget-manager-for-wordpress/?utm_source=wp.org&utm_medium=page&utm_content=otherp&utm_campaign=otw-p) |
 [Demo site](http://otwthemes.com/demos/1ts/?item=Sidebar%20Widget%20Manager&utm_source=wp.org&utm_medium=page&utm_content=otherp&utm_campaign=otw-p) | [Widgetize pages, create responsive layouts in minutes, drag & drop interface, feature rich](http://otwthemes.com/widgetizing-pages-in-wordpress-can-be-even-easier-and-faster?utm_source=wp.org&utm_medium=page&utm_content=site&utm_campaign=otw-p)
@@ -27,8 +27,8 @@ Both templates can be called in a Page by using their shortcodes.
 
 Shortcodes:
 
-* [otw_portfolio] - This will generate Portfolio Paginated template listing portfolio items
-* [otw_portfolio otw_filterable] - This will generate Portfolio Filterable template listing portfolio items with a nicely animated filter on top
+* [otw_portfolio] - This will generate Portfolio Paginated template listing portfolio items.
+* [otw_portfolio otw_filterable] - This will generate Portfolio Filterable template listing portfolio items with a nicely animated filter on top.
 
 Copy and past the shortcodes in a new page to get a page displaying your portfolio items.
 
