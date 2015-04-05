@@ -3,7 +3,7 @@ Contributors: OTWthemes
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CQH6CMTR42KS2
 Tags: portfolio, images gallery, custom fields, filterable portfolio, filter animation, categories, custom, pagination, customize templates, shortcodes
 Requires at least: 3.5
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -13,7 +13,7 @@ Create a great looking responsive portfolio on your WordPress site. Categorize p
 == Description ==
 OTW Portfolio Light plugin adds responsive portfolio functionality to your WordPress site. Create portfolio items. Categorize them. The plugin comes with a very nice 3 columns templates to show the portfolio in a page or portfolio category. Nice filter option or pagination is available too.
 
-Check out the [Sidebar and Widget Manager](http://otwthemes.com/product/sidebar-widget-manager-for-wordpress/?utm_source=wp.org&utm_medium=page&utm_content=otherp&utm_campaign=otw-p) |
+Check out the [Sidebar and Widget Manager](http://codecanyon.net/item/sidebar-widget-manager-for-wordpress/2287447?ref=OTWthemes) |
 [Demo site](http://otwthemes.com/demos/1ts/?item=Sidebar%20Widget%20Manager&utm_source=wp.org&utm_medium=page&utm_content=otherp&utm_campaign=otw-p) | [Widgetize pages, create responsive layouts in minutes, drag & drop interface, feature rich](http://otwthemes.com/widgetizing-pages-in-wordpress-can-be-even-easier-and-faster?utm_source=wp.org&utm_medium=page&utm_content=site&utm_campaign=otw-p)
 
 For portfolio items you have the following settings: title, content, client website, short testimonial, featured image for archives and portfolio images for the single portfolio item page displayed in a slider. 
